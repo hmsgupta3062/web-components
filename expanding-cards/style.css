@@ -48,5 +48,21 @@
 }
 
 .ec-active {
-    flex: 1;
+    flex: 2;
+}
+
+@media screen and (max-width: 1200px) {
+    .ec-container {
+        flex-direction: column;
+        padding: 3vh 5vw;
+        gap: 1.5vh;
+    }
+
+    .ec-component {
+        width: 100%;
+    }
+
+    .ec-active {
+        flex: 4;
+    }
 }
