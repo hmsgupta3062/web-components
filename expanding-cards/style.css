@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    background-image: url("image/alec-krum-M323fLgK1DE-unsplash.jpg");
+}
+
+.two {
+    background-image: url("image/ali-kazal-cwOHmicyFcY-unsplash.jpg");
+}
+
+.three {
+    background-image: url("image/eberhard-grossgasteiger-14CswSK3rL8-unsplash.jpg");
+}
+
+.four {
+    background-image: url("image/omar-ram-ih9GqHcjB8k-unsplash.jpg");
+}
+
+.five {
+    background-image: url("image/samantha-sheppard-BQUt8-LL2mk-unsplash.jpg");
+}
+
+.six {
+    background-image: url("image/stephen-leonardi-mf28LpWMecw-unsplash.jpg");
+}
+
+.ec-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding: 3vh 1vw;
+}
+
+.ec-component {
+    height: 100%;
+    flex: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    transition: flex 250ms ease-in;
+}
+
+.ec-active {
+    flex: 1;
+}
