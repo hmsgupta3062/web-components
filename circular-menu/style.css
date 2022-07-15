@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.menu-button {
+    position: absolute;
+    background-color: #6e44ff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    transition-property: transform;
+}
+
+.menu-close {
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.icon {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    fill: #f5f3f4;
+}
+
+#menu-open-button {
+    top: 55%;
+    left: 55%;
+}
+
+#menu-close-button {
+    top: 20%;
+    left: -5%;
+}
+
+.menu-item {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    border-radius: 50%;
+    font-size: 30px;
+    top: -200px;
+    left: -200px;
+    transform: rotate(-45deg);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    transition-property: transform;
+}
+
+.menu-style-1 {
+    background-color: #b892ff;
+}
+
+.menu-style-2 {
+    background-color: #ffc2e2;
+}
+
+.menu-style-3 {
+    background-color: #ff90b3;
+}
+
+.menu-item-1 {
+    transform: rotate(45deg);
+}
+
+.menu-item-2 {
+    transform: rotate(15deg);
+}
+
+.menu-item-3 {
+    transform: rotate(-15deg);
+}
+
+.menu-item-1:hover {
+    background-color: #ac80ff;
+}
+
+.menu-item-1:active {
+    background-color: #8b4dff;
+    color: white;
+}
+
+.menu-item-2:hover {
+    background-color: #ffb3db;
+}
+
+.menu-item-2:active {
+    background-color: #ff80c2;
+    color: white;
+}
+
+.menu-item-3:hover {
+    background-color: #ff80a8;
+}
+
+.menu-item-3:active {
+    background-color: #ff4d85;
+    color: white;
+}
+
+.menu-content-1 {
+    position: relative;
+    left: 65%;
+    top: 31%;
+    transform: rotate(-45deg);
+}
+
+.menu-content-2 {
+    position: relative;
+    left: 78%;
+    top: 48%;
+    transform: rotate(-20deg);
+}
+
+.menu-content-3 {
+    position: relative;
+    left: 80%;
+    top: 76%;
+    transform: rotate(15deg);
+}
